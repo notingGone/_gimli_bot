@@ -5,3 +5,4 @@
 # TODO: refactor to make a function to find a matching comment and return it
 #       then check it's top-level childred, until no children match, then comment
 # TODO: if comment.replies.__len__() > 0 and : continue
+# TODO: make /u/_gimli_bot a snoovatar

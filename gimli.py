@@ -13,7 +13,7 @@ submissions = reddit.front.hot(limit=50)
 
 for submission in submissions:
     for comment in submission.comments.replace_more(limit=100).list():
-        if comment.author == "_gimli_bot" or : continue
+        if comment.author == "_gimli_bot": continue
         if comment.parent_id[0:3] == 't3_': continue
         if find_and.match(comment.body):
         if (find_and.match(comment.body)
