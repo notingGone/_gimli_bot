@@ -1,0 +1,7 @@
+# TODO: time & async
+# TODO: only reply to one-sentance comments?
+# TODO: leave clever reply to comments that say "and my axe"
+# TODO: upvote base and parent comments for increased visibility
+# TODO: refactor to make a function to find a matching comment and return it
+#       then check it's top-level childred, until no children match, then comment
+# TODO: if comment.replies.__len__() > 0 and : continue
